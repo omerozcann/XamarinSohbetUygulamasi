@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFSohbet.ChatPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label x:Name="kisiLbl" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <ListView x:Name="listeLV"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+                  ItemsSource="{Binding .}"
+                  HasUnevenRows="True"
+                  SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                        <ViewCell>
+                            <ViewCell.View>
+                                <ContentView>
+                                    <StackLayout  VerticalOptions="CenterAndExpand">
+                                        <Frame HorizontalOptions="{Binding kimden}"
+                                           CornerRadius="10"
+                                           BackgroundColor="{Binding renk}"
+                                           Margin="5">
+                                            <Label Text="{Binding mesaj}"></Label>
+                                        </Frame>
+                                    </StackLayout>
+                                </ContentView>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid Padding="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />                    
+                </Grid.RowDefinitions>              
+                <Entry x:Name="mesajTxt" Keyboard="Text" Placeholder="Mesaj" Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand" ></Entry>                
+                <Button x:Name="gonderBtn" CornerRadius="10" Grid.Row="0" Grid.Column="1" Text="Gönder" FontSize="15" HorizontalOptions="EndAndExpand"  Clicked="gonderBtn_Clicked"></Button>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

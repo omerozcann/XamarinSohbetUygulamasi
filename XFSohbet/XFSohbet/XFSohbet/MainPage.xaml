@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFSohbet.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Sohbet V1.0" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <ListView x:Name="listeLV"
+            HorizontalOptions="FillAndExpand" 
+            VerticalOptions="FillAndExpand"
+                  ItemsSource="{Binding .}"
+                  HasUnevenRows="True"
+                  SeparatorVisibility="None"
+                  BackgroundColor="White">
+            <ListView.ItemTemplate>
+                <DataTemplate >
+                    <ViewCell>
+                        <ViewCell.View>
+                            <ContentView>
+                                <StackLayout  VerticalOptions="CenterAndExpand">
+                                    <Frame CornerRadius="5"
+                                           BackgroundColor="LightSteelBlue"
+                                           Margin="5" Padding="10">
+                                        <Label x:Name="adLbl"  Text="{Binding ad}" FontSize="30">
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                                            </Label.GestureRecognizers>
+                                        </Label>
+                                    </Frame>
+                                </StackLayout>
+                            </ContentView>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>        
+            <Grid Padding="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+            <Label x:Name="durumLbl" Text="Oturum Açılmadı" Grid.Row="0" Grid.Column="0"  HorizontalOptions="CenterAndExpand" VerticalOptions="Center" FontSize="15" ></Label>
+            <Entry x:Name="kullaniciTxt" Keyboard="Text" Placeholder="Kullanıcı Adı" Grid.Row="0" Grid.Column="1" ></Entry>
+                <Button x:Name="oturumKapatBtn" IsEnabled="False" CornerRadius="10" Grid.Row="1" Grid.Column="0" Text="Oturumu Kapat" FontSize="15" HorizontalOptions="CenterAndExpand" Clicked="oturumKapatBtn_Clicked"></Button>
+            <Button x:Name="oturumAcBtn" CornerRadius="10" Grid.Row="1" Grid.Column="1" Text="Oturumu Aç" FontSize="15" HorizontalOptions="CenterAndExpand" Clicked="oturumAcBtn_Clicked"></Button>
+        </Grid>
+             
+        
+    </StackLayout>
+
+</ContentPage>

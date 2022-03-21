@@ -1,0 +1,16 @@
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\bin\Debug\netstandard2.0\XFSohbet.deps.json
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\bin\Debug\netstandard2.0\XFSohbet.dll
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\bin\Debug\netstandard2.0\ref\XFSohbet.dll
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\bin\Debug\netstandard2.0\XFSohbet.pdb
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\obj\Debug\netstandard2.0\XFSohbet.csproj.AssemblyReference.cache
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\obj\Debug\netstandard2.0\XFSohbet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\obj\Debug\netstandard2.0\ChatPage.xaml.g.cs
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\obj\Debug\netstandard2.0\XFSohbet.AssemblyInfoInputs.cache
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\obj\Debug\netstandard2.0\XFSohbet.AssemblyInfo.cs
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\obj\Debug\netstandard2.0\XFSohbet.csproj.CoreCompileInputs.cache
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\obj\Debug\netstandard2.0\XFSohbet.dll
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\obj\Debug\netstandard2.0\ref\XFSohbet.dll
+D:\Belgeler\Visual Studio 2019\Projects\XFSohbet\XFSohbet\XFSohbet\obj\Debug\netstandard2.0\XFSohbet.pdb
