@@ -1,2 +1,2 @@
 # XamarinSohbetUygulamasi
- Xamarin ile Mysql Tabanlı Online Sohbet
+ Xamarin ile Mysql Tabanlı Online Sohbet(Chat)
